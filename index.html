@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="ko" class="no-js">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>윤혜림 | 전자공학 포트폴리오</title>
+  <meta name="description" content="영남대학교 전자공학과 윤혜림의 포트폴리오입니다. 비전 AI, 데이터분석, 자동화에 관심이 있으며 산업용 로봇·자율주행 프로젝트 경험과 보유 기술을 정리했습니다." />
+  <meta name="theme-color" content="#FFFFFF" />
+  <link rel="icon" type="image/svg+xml"
+        href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2032%2032'%3E%3Crect%20width='32'%20height='32'%20rx='8'%20fill='%23101418'/%3E%3Ctext%20x='16'%20y='21.5'%20text-anchor='middle'%20font-family='Arial,sans-serif'%20font-size='12'%20font-weight='700'%20fill='%23ffffff'%3EYH%3C/text%3E%3C/svg%3E" />
+
+  <!-- 공유(OG) 메타데이터: 실제 배포 시 og:image, og:url 값을 채워 주세요. -->
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="ko_KR" />
+  <meta property="og:title" content="윤혜림 | 전자공학 포트폴리오" />
+  <meta property="og:description" content="비전 AI·데이터분석·자동화에 관심을 둔 영남대학교 전자공학과 윤혜림의 포트폴리오입니다." />
+
+  <link rel="stylesheet" href="./style.css" />
+  <script src="./script.js" defer></script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main">본문으로 건너뛰기</a>
+
+  <!-- ===== HEADER / NAVIGATION ===== -->
+  <header class="site-header" id="site-header">
+    <div class="container header__inner">
+      <a class="brand" href="#home">
+        <span class="brand__mark" aria-hidden="true">YH</span>
+        <span class="brand__name">윤혜림</span>
+      </a>
+
+      <nav class="nav" id="site-nav" aria-label="주 메뉴">
+        <ul class="nav__list">
+          <li><a class="nav__link" href="#home">Home</a></li>
+          <li><a class="nav__link" href="#about">About</a></li>
+          <li><a class="nav__link" href="#skills">Skills</a></li>
+          <li><a class="nav__link" href="#projects">Projects</a></li>
+          <li><a class="nav__link" href="#experience">Experience</a></li>
+          <li><a class="nav__link" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <a class="btn btn--secondary btn--sm header__cta" href="#contact">연락하기</a>
+
+      <button class="nav-toggle" type="button" id="nav-toggle"
+              aria-expanded="false" aria-controls="site-nav" aria-label="메뉴 열기">
+        <span class="nav-toggle__bar" aria-hidden="true"></span>
+        <span class="nav-toggle__bar" aria-hidden="true"></span>
+        <span class="nav-toggle__bar" aria-hidden="true"></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ===== 01. HOME ===== -->
+    <section class="section section--hero" id="home" aria-labelledby="home-title">
+      <div class="container hero">
+        <div class="hero__body">
+          <p class="status">
+            <span class="status__dot" aria-hidden="true"></span>
+            영남대학교 전자공학과
+          </p>
+
+          <h1 class="hero__title" id="home-title">
+            책임감과 꼼꼼함으로 완성하는<br />
+            전자공학도 <strong>윤혜림</strong>입니다.
+          </h1>
+
+          <p class="hero__lead">
+            비전 AI · 데이터분석 · 자동화에 관심이 있으며,
+            산업용 로봇 기반 블록 pick&amp;place, 플러그 분리 및 청소 자동화, 자율주행 프로젝트를 진행했습니다.
+          </p>
+
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#projects">프로젝트 보기 →</a>
+            <a class="btn btn--secondary" href="#contact">연락하기</a>
+          </div>
+
+          <ul class="social" aria-label="외부 채널">
+            <li>
+              <a class="social__link" href="https://github.com/githhyerim"
+                 target="_blank" rel="noopener noreferrer">GitHub ↗<span class="sr-only"> (새 창)</span></a>
+            </li>
+            <li>
+              <a class="social__link" href="mailto:yhr0313@naver.com">Email ✉</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="hero__aside">
+          <!-- 실제 이미지/3D 렌더를 사용할 경우:
+               <img class="hero-figure" src="./assets/img/hero-visual.png" alt="" width="1024" height="1024"> -->
+          <div class="hero-visual" aria-hidden="true">
+            <span class="hero-visual__grid"></span>
+            <span class="hero-visual__ring"></span>
+            <span class="hero-visual__ring hero-visual__ring--inner"></span>
+            <span class="hero-visual__line hero-visual__line--h"></span>
+            <span class="hero-visual__line hero-visual__line--v"></span>
+            <span class="hero-visual__chip"></span>
+            <span class="hero-visual__node hero-visual__node--a"></span>
+            <span class="hero-visual__node hero-visual__node--b"></span>
+            <span class="avatar">YH</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <ul class="stats" aria-label="핵심 수치">
+          <li class="stat"><span class="stat__value">3</span><span class="stat__label">프로젝트</span></li>
+          <li class="stat"><span class="stat__value">4</span><span class="stat__label">수상</span></li>
+          <li class="stat"><span class="stat__value">3</span><span class="stat__label">자격증</span></li>
+          <li class="stat"><span class="stat__value">2</span><span class="stat__label">대외활동</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== 02. ABOUT ===== -->
+    <section class="section section--surface" id="about" aria-labelledby="about-title">
+      <div class="container">
+        <header class="section__header">
+          <p class="eyebrow">01 · About</p>
+          <h2 class="section__title" id="about-title">사람과 배경</h2>
+          <p class="section__lead">"강한 책임감과 꼼꼼함이 제 강점입니다."</p>
+        </header>
+
+        <div class="grid grid--2">
+          <div class="about__text">
+            <p>
+              영남대학교 전자공학과에서 비전 AI, 데이터분석, 자동화에 관심을 두고 공부하고 있습니다.
+            </p>
+            <p>
+              산업용 로봇 기반 블록 pick&amp;place, 플러그 분리 및 청소 자동화, 자율주행 프로젝트를 진행했습니다.
+              보유 기술은 Python, Pandas, SQL, scikit-learn, C/C++, MATLAB, Altium Designer입니다.
+            </p>
+            <p>
+              YU 봉사단과 연구실 학부연구생으로 활동했습니다.
+            </p>
+
+            <ul class="tag-list" aria-label="관심 분야">
+              <li class="tag">#비전AI</li>
+              <li class="tag">#데이터분석</li>
+              <li class="tag">#자동화</li>
+              <li class="tag">#전자공학</li>
+            </ul>
+          </div>
+
+          <div class="stack">
+            <article class="card">
+              <h3 class="card__title">학력</h3>
+              <dl class="info-list">
+                <div class="info-list__row">
+                  <dt>대학</dt>
+                  <dd>영남대학교</dd>
+                </div>
+                <div class="info-list__row">
+                  <dt>전공</dt>
+                  <dd>전자공학과</dd>
+                </div>
+              </dl>
+            </article>
+
+            <article class="card">
+              <h3 class="card__title">한 줄 소개</h3>
+              <dl class="info-list">
+                <div class="info-list__row">
+                  <dt>관심 분야</dt>
+                  <dd>비전 AI, 데이터분석, 자동화</dd>
+                </div>
+                <div class="info-list__row">
+                  <dt>강점</dt>
+                  <dd>강한 책임감, 꼼꼼함</dd>
+                </div>
+                <div class="info-list__row">
+                  <dt>활동</dt>
+                  <dd>YU 봉사단, 연구실 학부연구생</dd>
+                </div>
+              </dl>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 03. SKILLS ===== -->
+    <section class="section" id="skills" aria-labelledby="skills-title">
+      <div class="container">
+        <header class="section__header">
+          <p class="eyebrow">02 · Skills</p>
+          <h2 class="section__title" id="skills-title">기술과 역량</h2>
+          <p class="section__lead">
+            보유 기술 7종을 분야별로 정리했습니다.
+          </p>
+        </header>
+
+        <ul class="grid skill-grid">
+          <li class="card skill-card">
+            <h3 class="card__title">Programming</h3>
+            <ul class="chip-list">
+              <li><span class="chip">Python</span></li>
+              <li><span class="chip">C/C++</span></li>
+            </ul>
+          </li>
+
+          <li class="card skill-card">
+            <h3 class="card__title">Data · AI</h3>
+            <ul class="chip-list">
+              <li><span class="chip">Pandas</span></li>
+              <li><span class="chip">SQL</span></li>
+              <li><span class="chip">scikit-learn</span></li>
+            </ul>
+          </li>
+
+          <li class="card skill-card">
+            <h3 class="card__title">Engineering Tools</h3>
+            <ul class="chip-list">
+              <li><span class="chip">MATLAB</span></li>
+              <li><span class="chip">Altium Designer</span></li>
+            </ul>
+          </li>
+        </ul>
+
+        <h3 class="subheading">핵심 역량</h3>
+        <ul class="grid grid--3 competency-list">
+          <li class="card competency">
+            <p class="competency__num" aria-hidden="true">01</p>
+            <h4 class="competency__title">자동화 구현</h4>
+            <p class="competency__desc">로봇과 장치의 동작을 자동화하는 프로젝트를 진행했습니다.</p>
+            <p class="competency__evidence">근거: 산업용 로봇 블록 pick&amp;place, 플러그 분리 및 청소 자동화</p>
+          </li>
+          <li class="card competency">
+            <p class="competency__num" aria-hidden="true">02</p>
+            <h4 class="competency__title">데이터 분석</h4>
+            <p class="competency__desc">데이터 분석을 위해 Pandas, SQL, scikit-learn을 보유하고 있습니다.</p>
+            <p class="competency__evidence">근거: Pandas, SQL, scikit-learn</p>
+          </li>
+          <li class="card competency">
+            <p class="competency__num" aria-hidden="true">03</p>
+            <h4 class="competency__title">하드웨어·설계</h4>
+            <p class="competency__desc">하드웨어 설계를 위해 C/C++, MATLAB, Altium Designer를 보유하고 있습니다.</p>
+            <p class="competency__evidence">근거: C/C++, MATLAB, Altium Designer</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== 04. PROJECTS ===== -->
+    <section class="section section--surface" id="projects" aria-labelledby="projects-title">
+      <div class="container">
+        <header class="section__header">
+          <p class="eyebrow">03 · Projects</p>
+          <h2 class="section__title" id="projects-title">프로젝트</h2>
+          <p class="section__lead">로봇과 장치 자동화, 자율주행을 주제로 진행한 프로젝트 3건입니다.</p>
+        </header>
+
+        <div class="filter" role="group" aria-label="프로젝트 필터" data-filter-group>
+          <button class="filter__chip is-active" type="button" data-filter="all" aria-pressed="true">전체</button>
+          <button class="filter__chip" type="button" data-filter="automation" aria-pressed="false">자동화</button>
+          <button class="filter__chip" type="button" data-filter="robotics" aria-pressed="false">로보틱스</button>
+          <button class="filter__chip" type="button" data-filter="autonomous" aria-pressed="false">자율주행</button>
+        </div>
+
+        <ul class="grid grid--3 project-grid" data-project-list>
+          <li class="project-item" data-category="robotics automation">
+            <article class="card project-card">
+              <p class="project-card__thumb">
+                <img src="./assets/img/project-robot-pickplace.jpg"
+                     alt="산업용 로봇이 제품을 집어 옮기는 모습" width="640" height="480"
+                     loading="lazy" decoding="async" />
+              </p>
+              <ul class="badge-list">
+                <li class="badge badge--brand">로보틱스</li>
+                <li class="badge">자동화</li>
+              </ul>
+              <h3 class="project-card__title">산업용 로봇 기반 블록 pick&amp;place</h3>
+              <p class="project-card__summary">
+                산업용 로봇을 활용해 블록을 집어 옮기는 pick&amp;place 작업을 주제로 진행한 프로젝트입니다.
+              </p>
+            </article>
+          </li>
+
+          <li class="project-item" data-category="automation">
+            <article class="card project-card">
+              <p class="project-card__thumb">
+                <img src="./assets/img/project-automation.jpg"
+                     alt="로봇 암이 물체를 집어 옮기는 자동화 장비" width="800" height="450"
+                     loading="lazy" decoding="async" />
+              </p>
+              <ul class="badge-list">
+                <li class="badge badge--brand">자동화</li>
+              </ul>
+              <h3 class="project-card__title">플러그 분리 및 청소 자동화</h3>
+              <p class="project-card__summary">
+                플러그 분리와 청소 과정을 자동화하는 것을 목표로 진행한 프로젝트입니다.
+              </p>
+            </article>
+          </li>
+
+          <li class="project-item" data-category="autonomous">
+            <article class="card project-card">
+              <p class="project-card__thumb">
+                <img src="./assets/img/project-autonomous.jpg"
+                     alt="센서를 장착한 자율주행 차량" width="800" height="533"
+                     loading="lazy" decoding="async" />
+              </p>
+              <ul class="badge-list">
+                <li class="badge badge--brand">자율주행</li>
+              </ul>
+              <h3 class="project-card__title">자율주행</h3>
+              <p class="project-card__summary">
+                자율주행을 주제로 진행한 프로젝트입니다.
+              </p>
+            </article>
+          </li>
+        </ul>
+
+        <p class="projects__more">
+          <a class="link" href="https://github.com/githhyerim" target="_blank"
+             rel="noopener noreferrer">GitHub에서 더 보기 ↗<span class="sr-only"> (새 창)</span></a>
+        </p>
+
+        <p class="empty" data-empty hidden>해당 조건의 프로젝트가 없습니다.</p>
+      </div>
+    </section>
+
+    <!-- ===== 05. EXPERIENCE ===== -->
+    <section class="section" id="experience" aria-labelledby="experience-title">
+      <div class="container">
+        <header class="section__header">
+          <p class="eyebrow">04 · Experience</p>
+          <h2 class="section__title" id="experience-title">활동과 성과</h2>
+          <p class="section__lead">수상 경력, 자격증, 대외활동을 정리했습니다.</p>
+        </header>
+
+        <div class="grid grid--3 exp-grid">
+          <section class="card exp-card" aria-labelledby="exp-awards">
+            <h3 class="exp-card__title" id="exp-awards">수상 경력 <span class="badge badge--brand">4</span></h3>
+            <ul class="exp-card__list">
+              <li>2025 HL FMA</li>
+              <li>제우스 로봇 미션챌린지</li>
+              <li>미래형 이동수단 자작경진대회</li>
+              <li>AI 해커톤 경진대회</li>
+            </ul>
+          </section>
+
+          <section class="card exp-card" aria-labelledby="exp-certs">
+            <h3 class="exp-card__title" id="exp-certs">자격증 <span class="badge badge--brand">3</span></h3>
+            <ul class="exp-card__list">
+              <li>6시그마</li>
+              <li>빅데이터관리사</li>
+              <li>AIPD</li>
+            </ul>
+          </section>
+
+          <section class="card exp-card" aria-labelledby="exp-activities">
+            <h3 class="exp-card__title" id="exp-activities">대외활동 <span class="badge badge--brand">2</span></h3>
+            <ul class="exp-card__list">
+              <li>YU 봉사단</li>
+              <li>연구실 학부연구생</li>
+            </ul>
+          </section>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 06. CONTACT ===== -->
+    <section class="section section--contact" id="contact" aria-labelledby="contact-title">
+      <div class="container container--narrow">
+        <header class="section__header section__header--center">
+          <p class="eyebrow">05 · Contact</p>
+          <h2 class="section__title" id="contact-title">함께 만들고 싶은 것이 있다면 연락 주세요</h2>
+          <p class="section__lead">프로젝트와 협업 관련 문의는 이메일로 연락 주세요.</p>
+        </header>
+
+        <div class="card contact-card">
+          <div class="contact-card__main">
+            <p class="contact-card__label">이메일</p>
+            <a class="contact-card__email"
+               href="mailto:yhr0313@naver.com?subject=%5B%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4%20%EB%AC%B8%EC%9D%98%5D">
+              yhr0313@naver.com
+            </a>
+          </div>
+          <button class="btn btn--secondary" type="button" data-copy-email="yhr0313@naver.com">
+            복사
+          </button>
+        </div>
+
+        <div class="contact__actions">
+          <a class="btn btn--primary"
+             href="mailto:yhr0313@naver.com?subject=%5B%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4%20%EB%AC%B8%EC%9D%98%5D">
+            메일 보내기
+          </a>
+          <a class="btn btn--secondary" href="https://github.com/githhyerim"
+             target="_blank" rel="noopener noreferrer">GitHub ↗<span class="sr-only"> (새 창)</span></a>
+          <!-- 이력서 PDF를 추가한 뒤 아래 링크의 주석을 해제하세요.
+          <a class="btn btn--secondary" href="./resume.pdf" download>이력서 PDF ↓</a>
+          -->
+        </div>
+
+        <p class="status status--center">
+          <span class="status__dot" aria-hidden="true"></span>
+          관심 분야 · 비전 AI · 데이터분석 · 자동화
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <p class="footer__name">윤혜림</p>
+        <p class="footer__desc">영남대학교 전자공학과에서 비전 AI·데이터분석·자동화에 관심을 두고 있습니다.</p>
+      </div>
+
+      <nav class="footer__nav" aria-label="푸터 메뉴">
+        <ul class="footer__list">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <ul class="footer__list footer__list--contact">
+        <li><a href="mailto:yhr0313@naver.com">yhr0313@naver.com</a></li>
+        <li>
+          <a href="https://github.com/githhyerim" target="_blank"
+             rel="noopener noreferrer">GitHub ↗<span class="sr-only"> (새 창)</span></a>
+        </li>
+        <li><a href="#home">맨 위로 ↑</a></li>
+      </ul>
+    </div>
+
+    <div class="container footer__bottom">
+      <p>© <span data-year>2026</span> 윤혜림 · Built with HTML / CSS / JS</p>
+    </div>
+  </footer>
+
+  <!-- 스크린리더 알림용 토스트 -->
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
